@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+.insta-logo {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.nav-buttons {
+  margin: 20px 0;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.anime-section {
+  margin-top: 40px;
+}
+.anime-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.anime-entry {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 500px;
+}
+.anime-entry img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.coming-soon {
+  margin-top: 60px;
+  font-size: 1.2rem;
+}
